@@ -1,0 +1,13 @@
+# macOS metadata
+.DS_Store
+._*
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Misc
+Thumbs.db
