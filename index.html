@@ -35,6 +35,7 @@
             <ul class="nav-menu" id="nav-menu">
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li><a href="#projects" class="nav-link">Projects</a></li>
                 <li><a href="#achievements" class="nav-link">Achievements</a></li>
@@ -108,12 +109,6 @@
                         I believe in the power of technology to create positive impact, and I'm excited to contribute to
                         the future of engineering through innovative projects and collaborative efforts.
                     </p>
-                    <!-- 
-                    ============================================
-                    ADD YOUR DETAILED BIO HERE IN THE FUTURE
-                    Just add more <p> tags with your content
-                    ============================================
-                    -->
                     <div class="about-links">
                         <a href="https://www.linkedin.com/in/wei-qian-chook-32606723b/" class="social-link"
                             title="LinkedIn" target="_blank" rel="noopener noreferrer">
@@ -158,68 +153,21 @@
                 <span class="title-number">02.</span>
                 Education
             </h2>
-            <div class="education-grid">
-                <!-- Current Education -->
-                <div class="education-card current" data-aos="fade-up">
-                    <div class="education-status">
-                        <span class="status-badge current">Current</span>
-                    </div>
-                    <div class="education-icon">🎓</div>
-                    <div class="education-content">
-                        <h3 class="education-institution">ITE College West</h3>
-                        <p class="education-level">NITEC</p>
-                        <p class="education-course">Mechatronics & Robotics</p>
-                        <div class="education-details">
-                            <div class="detail-item">
-                                <span class="detail-label">Duration</span>
-                                <span class="detail-value">2025 - Present</span>
-                            </div>
-                        </div>
-                        <!-- GPA Section with Tabs -->
-                        <div class="gpa-section">
-                            <div class="gpa-tabs">
-                                <button class="gpa-tab active" data-gpa="4.0">Cumulative</button>
-                                <button class="gpa-tab" data-gpa="4.0">Sem 1</button>
-                                <button class="gpa-tab" data-gpa="--">Sem 2</button>
-                            </div>
-                            <div class="gpa-display">
-                                <span class="gpa-label">GPA</span>
-                                <span class="gpa-value">4.0</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="education-grid" id="education-grid">
+                <!-- Rendered dynamically from data.json -->
+            </div>
+        </div>
+    </section>
 
-                <!-- 
-                !-- Previous Education --
-                <div class="education-card" data-aos="fade-up">
-                    <div class="education-status">
-                        <span class="status-badge completed">Completed</span>
-                    </div>
-                    <div class="education-icon">📚</div>
-                    <div class="education-content">
-                        <h3 class="education-institution">ITE College Central</h3>
-                        <p class="education-level">Higher Nitec</p>
-                        <p class="education-course">Electronics Engineering</p>
-                        <div class="education-details">
-                            <div class="detail-item">
-                                <span class="detail-label">Duration</span>
-                                <span class="detail-value">2023 - 2024</span>
-                            </div>
-                            <div class="detail-item">
-                                <span class="detail-label">GPA</span>
-                                <span class="detail-value gpa-highlight">4.0</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                -->
-                <!-- 
-                ============================================
-                ADD MORE EDUCATION HERE IN THE FUTURE
-                Copy the education-card structure above
-                ============================================
-                -->
+    <!-- Work Experience Section -->
+    <section class="section experience" id="experience">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">03.</span>
+                Work Experience
+            </h2>
+            <div class="experience-timeline" id="experience-timeline">
+                <!-- Rendered dynamically from data.json -->
             </div>
         </div>
     </section>
@@ -228,52 +176,11 @@
     <section class="section skills" id="skills">
         <div class="container">
             <h2 class="section-title">
-                <span class="title-number">03.</span>
+                <span class="title-number">04.</span>
                 Technical Skills
             </h2>
-            <div class="skills-grid">
-                <div class="skill-card" data-aos="fade-up">
-                    <div class="skill-icon">🔌</div>
-                    <h3 class="skill-name">IoT Development</h3>
-                    <p class="skill-description">Building connected devices with ESP32, sensors, and cloud integration
-                        for real-world applications.</p>
-                </div>
-                <div class="skill-card" data-aos="fade-up">
-                    <div class="skill-icon">🖥️</div>
-                    <h3 class="skill-name">Embedded Systems</h3>
-                    <p class="skill-description">Programming microcontrollers including ESP32, Arduino, and working with
-                        various communication protocols.</p>
-                </div>
-                <div class="skill-card" data-aos="fade-up">
-                    <div class="skill-icon">🐍</div>
-                    <h3 class="skill-name">Python</h3>
-                    <p class="skill-description">Data analysis, automation scripts, and machine learning applications
-                        using Python ecosystem.</p>
-                </div>
-                <div class="skill-card" data-aos="fade-up">
-                    <div class="skill-icon">⚡</div>
-                    <h3 class="skill-name">C/C++</h3>
-                    <p class="skill-description">Low-level programming for embedded systems and performance-critical
-                        applications.</p>
-                </div>
-                <div class="skill-card" data-aos="fade-up">
-                    <div class="skill-icon">🖨️</div>
-                    <h3 class="skill-name">3D Printing & CAD</h3>
-                    <p class="skill-description">Designing and prototyping custom enclosures and mechanical components
-                        for projects.</p>
-                </div>
-                <div class="skill-card" data-aos="fade-up">
-                    <div class="skill-icon">📡</div>
-                    <h3 class="skill-name">Electronics</h3>
-                    <p class="skill-description">Circuit design, PCB layout, soldering, and working with various
-                        electronic components.</p>
-                </div>
-                <!-- 
-                ============================================
-                ADD MORE SKILLS HERE IN THE FUTURE
-                Copy the skill-card div structure above
-                ============================================
-                -->
+            <div class="skills-grid" id="skills-grid">
+                <!-- Rendered dynamically from data.json -->
             </div>
         </div>
     </section>
@@ -282,76 +189,11 @@
     <section class="section projects" id="projects">
         <div class="container">
             <h2 class="section-title">
-                <span class="title-number">04.</span>
+                <span class="title-number">05.</span>
                 Featured Projects
             </h2>
-            <div class="projects-list">
-                <!-- Project SOS -->
-                <article class="project-card featured" data-aos="fade-up">
-                    <div class="project-images">
-                        <div class="image-carousel">
-                            <img src="assets/images/project-sos-main.jpeg"
-                                alt="Project SOS Main Unit - Environmental monitoring device with display"
-                                class="project-img active">
-                            <img src="assets/images/project-sos-portable.jpeg"
-                                alt="Project SOS Portable Unit - Wearable safety device" class="project-img">
-                        </div>
-                        <div class="carousel-dots">
-                            <button class="dot active" data-index="0" aria-label="View main unit image"></button>
-                            <button class="dot" data-index="1" aria-label="View portable unit image"></button>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-header">
-                            <span class="project-label">🏆 1st Place - Asia Design-to-Make 2025</span>
-                            <h3 class="project-title">Project SOS: The IoT Safety Net</h3>
-                        </div>
-                        <p class="project-description">
-                            An innovative IoT-based safety monitoring system designed for elderly care and workplace
-                            safety. The system consists of two components:
-                        </p>
-                        <ul class="project-features">
-                            <li><strong>Main Unit:</strong> Environmental monitoring station displaying real-time
-                                Temperature, Humidity, NO2 levels, eCO2, and TVOC with emergency alert button</li>
-                            <li><strong>Portable Unit:</strong> Wearable device for personal safety tracking and
-                                emergency notifications</li>
-                        </ul>
-                        <div class="project-tech">
-                            <span class="tech-tag">ESP32</span>
-                            <span class="tech-tag">IoT</span>
-                            <span class="tech-tag">Sensors</span>
-                            <span class="tech-tag">3D Printing</span>
-                            <span class="tech-tag">C/C++</span>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- 
-                ============================================
-                ADD MORE PROJECTS HERE IN THE FUTURE
-                Copy the project-card structure above
-                ============================================
-                
-                Example template:
-                <article class="project-card" data-aos="fade-up">
-                    <div class="project-images">
-                        <img src="assets/images/your-project.jpg" alt="Project description" class="project-img">
-                    </div>
-                    <div class="project-content">
-                        <div class="project-header">
-                            <span class="project-label">Category or Award</span>
-                            <h3 class="project-title">Project Name</h3>
-                        </div>
-                        <p class="project-description">
-                            Your project description here.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Tech 1</span>
-                            <span class="tech-tag">Tech 2</span>
-                        </div>
-                    </div>
-                </article>
-                -->
+            <div class="projects-list" id="projects-list">
+                <!-- Rendered dynamically from data.json -->
             </div>
         </div>
     </section>
@@ -360,83 +202,11 @@
     <section class="section achievements" id="achievements">
         <div class="container">
             <h2 class="section-title">
-                <span class="title-number">05.</span>
+                <span class="title-number">06.</span>
                 Achievements & Certifications
             </h2>
-            <div class="achievements-grid">
-                <!-- Asia Design-to-Make 1st Place -->
-                <div class="achievement-card" data-aos="fade-up"
-                    data-certificate="assets/certificates/asia-design-to-make-1st-place.png" data-type="image">
-                    <div class="achievement-icon">🥇</div>
-                    <h3 class="achievement-title">1st Place - Asia Design-to-Make Skills Competition 2025</h3>
-                    <p class="achievement-org">ITE College Central & Autodesk</p>
-                    <p class="achievement-desc">Designing for Dignity: Innovation for an Aging and Inclusive Future</p>
-                    <button class="view-cert-btn">View Certificate</button>
-                </div>
-
-                <!-- Director's List (Combined) -->
-                <div class="achievement-card" data-aos="fade-up" data-type="multi-pdf">
-                    <div class="achievement-icon">⭐</div>
-                    <h3 class="achievement-title">Director's List</h3>
-                    <p class="achievement-org">ITE College</p>
-                    <p class="achievement-desc">Academic Excellence - Multiple Semesters</p>
-                    <div class="semester-tabs">
-                        <button class="semester-tab active" data-cert="assets/certificates/directors-list.pdf">Jan -
-                            Jun</button>
-                        <button class="semester-tab" data-cert="assets/certificates/directors-list-july-dec.pdf">July -
-                            Dec</button>
-                    </div>
-                    <button class="view-cert-btn" data-certificate="assets/certificates/directors-list.pdf">View
-                        Certificate</button>
-                </div>
-
-                <!-- Drone Odysseys -->
-                <div class="achievement-card" data-aos="fade-up"
-                    data-certificate="assets/certificates/drone-odysseys.pdf" data-type="pdf">
-                    <div class="achievement-icon">🚁</div>
-                    <h3 class="achievement-title">Drone Odysseys</h3>
-                    <p class="achievement-org">Certification Program</p>
-                    <p class="achievement-desc">Drone operation and programming certification</p>
-                    <button class="view-cert-btn">View Certificate</button>
-                </div>
-
-                <!-- EC Council CEH -->
-                <div class="achievement-card" data-aos="fade-up"
-                    data-certificate="assets/certificates/ec-council-ceh.pdf" data-type="pdf">
-                    <div class="achievement-icon">🔐</div>
-                    <h3 class="achievement-title">EC-Council Certified Ethical Hacker</h3>
-                    <p class="achievement-org">NTUC Learning Hub</p>
-                    <p class="achievement-desc">Cybersecurity and ethical hacking certification</p>
-                    <button class="view-cert-btn">View Certificate</button>
-                </div>
-
-                <!-- Gold Star Award -->
-                <div class="achievement-card" data-aos="fade-up"
-                    data-certificate="assets/certificates/gold-star-award.pdf" data-type="pdf">
-                    <div class="achievement-icon">🌟</div>
-                    <h3 class="achievement-title">Gold Star Award</h3>
-                    <p class="achievement-org">ITE College</p>
-                    <p class="achievement-desc">Recognition for outstanding academic and co-curricular achievements</p>
-                    <button class="view-cert-btn">View Certificate</button>
-                </div>
-
-                <!-- IBM Data Science -->
-                <div class="achievement-card" data-aos="fade-up"
-                    data-certificate="assets/certificates/ibm-data-science.pdf" data-type="pdf">
-                    <div class="achievement-icon">📊</div>
-                    <h3 class="achievement-title">IBM Data Science Professional Certificate</h3>
-                    <p class="achievement-org">Coursera</p>
-                    <p class="achievement-desc">Comprehensive data science certification covering Python, SQL, Machine
-                        Learning</p>
-                    <button class="view-cert-btn">View Certificate</button>
-                </div>
-
-                <!-- 
-                ============================================
-                ADD MORE ACHIEVEMENTS HERE IN THE FUTURE
-                Copy the achievement-card structure above
-                ============================================
-                -->
+            <div class="achievements-grid" id="achievements-grid">
+                <!-- Rendered dynamically from data.json -->
             </div>
         </div>
     </section>
@@ -445,7 +215,7 @@
     <section class="section contact" id="contact">
         <div class="container">
             <h2 class="section-title">
-                <span class="title-number">06.</span>
+                <span class="title-number">07.</span>
                 Get In Touch
             </h2>
             <div class="contact-content">
@@ -534,6 +304,7 @@
     </div>
 
     <!-- Scripts -->
+    <script src="data.js"></script>
     <script src="script.js"></script>
 </body>
 
